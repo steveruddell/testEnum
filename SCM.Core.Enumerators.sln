@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SCM6Enumerators", "SCM6Enumerators\SCM6Enumerators.vbproj", "{24C41FCC-0447-4818-AE3F-A4FA7F8E9775}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DD66CBA6-1EB6-48FD-BC01-F8100277FDE2}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Dev|Any CPU = Dev|Any CPU
+		ProductionRW|Any CPU = ProductionRW|Any CPU
+		QA|Any CPU = QA|Any CPU
+		StagingRW|Any CPU = StagingRW|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24C41FCC-0447-4818-AE3F-A4FA7F8E9775}.Dev|Any CPU.ActiveCfg = Dev|Any CPU
+		{24C41FCC-0447-4818-AE3F-A4FA7F8E9775}.Dev|Any CPU.Build.0 = Dev|Any CPU
+		{24C41FCC-0447-4818-AE3F-A4FA7F8E9775}.ProductionRW|Any CPU.ActiveCfg = ProductionRW|Any CPU
+		{24C41FCC-0447-4818-AE3F-A4FA7F8E9775}.ProductionRW|Any CPU.Build.0 = ProductionRW|Any CPU
+		{24C41FCC-0447-4818-AE3F-A4FA7F8E9775}.QA|Any CPU.ActiveCfg = QA|Any CPU
+		{24C41FCC-0447-4818-AE3F-A4FA7F8E9775}.QA|Any CPU.Build.0 = QA|Any CPU
+		{24C41FCC-0447-4818-AE3F-A4FA7F8E9775}.StagingRW|Any CPU.ActiveCfg = StagingRW|Any CPU
+		{24C41FCC-0447-4818-AE3F-A4FA7F8E9775}.StagingRW|Any CPU.Build.0 = StagingRW|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

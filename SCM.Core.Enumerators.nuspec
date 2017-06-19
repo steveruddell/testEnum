@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>SCM.Core.Enumerators</id>
+    <version>1.142.5</version>
+    <authors>Stuart Leitch</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SCM Platform component</description>
+    <references>
+      <reference file="SCM6Enumerators.dll" />
+    </references>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="SCM6Enumerators\bin\SCM6Enumerators.*" target="lib\net46" />
+  </files>
+</package>
