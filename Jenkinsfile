@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Initialize') {
       steps {
-        git(url: 'https://github.com/steveruddell/testEnum', branch: 'master')
+        git(url: 'https://github.com/steveruddell/testEnum', branch: 'master', credentialsId: 'steveruddell')
       }
     }
   }
